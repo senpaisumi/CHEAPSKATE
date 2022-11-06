@@ -1,20 +1,49 @@
-<!DOCTYPE html>
+from flask import Flask, render_template, request, url_for
+import folium
+import pandas as pd
 
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <tilie>CHEAPSKATE</title>
-  </head>
-  <body>
+data = pd.read_csv('dataset.csv')
 
-    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-    <label for="vehicle1"> I have a bike</label><br>
-    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-    <label for="vehicle2"> I have a car</label><br>
-    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-    <label for="vehicle3"> I have a boat</label><br>
+categories = ['Grocery', 'Bubble Tea', 'Entertainment', 'Fashion', 'Food']
+
+app = Flask(__name__)
+
+def create_map(category):
+    for i in range(len(data)):
+        data_row = data.loc[i]
+
+        LAT = data_row['latitude']
+        LON = data_row['longitude']
+        name = data_row['name']
+        offer = data_row['offer']
+        address = data_row['location']
+
+        map = folium.Map(location=[LAT, LON], zoom_start=10)
+        for _ in zip(LAT, LON):
+            popup_code = """<h1> {name} </h1><h2> {offer} </h2>""".format(name=name, offer=offer)
+            tooltip_code = """<h3> {address} </h3>""".format(address=address)
+            if data_row['category'] == category:
+                folium.Marker(location=[LAT, LON],
+                              popup=popup_code,
+                              tooltip=tooltip_code,
+                              icon=folium.Icon(icon='tag', icon_color='white', color='red')).add_to(my_map)
+
+        map.save("templates/my_map.html")
+
+@app.route("/", methods=['POST', 'GET'])
+def index():
+    if request.method == 'POST':
+        select = request.form.get("categories")
+        return str(select)
+    else:
+        return render_template('index.html', categories=categories)
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+category = index()
+create_map(category)
+
+my_map.save('my_map.html')
 
 
-</body>
-</html>
