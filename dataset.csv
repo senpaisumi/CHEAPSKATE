@@ -1,0 +1,37 @@
+sno,name,category,offer,location,latitude,longitude
+1,Yang Tea Shp,Bubble Tea,BOGO,"183 Dundas St W, Toronto, ON M5G 1C7",43.6551098,-79.3866495
+2,Yang Tea Shp,Bubble Tea,BOGO,"8570 Woodbine Ave D3, Markham, ON L3R 4X8",43.85166851,-79.35915613
+3,CoCo Fresh Tea and Juice,Bubble Tea,BOGO,"371 Spadina Ave., Toronto, ON M5T 2G3",43.65602927,-79.3988902
+4,CoCo Fresh Tea and Juice,Bubble Tea,BOGO,"630 Bloor St W, Toronto, ON M6G 1K7",43.66472332,-79.41447469
+5,CoCo Fresh Tea and Juice,Bubble Tea,30%,"648A Yonge St, Toronto, ON M4Y 2A6",43.66704424,-79.38556299
+6,The Alley,Bubble Tea,40%,"R3-120 Adelaide Street W Richmond - Adelaide Centre, Toronto, ON M5H 1T1",43.65010006,-79.38325483
+7,The Alley,Bubble Tea,10%,"382 Yonge St Unit 1, Toronto, ON M5B 1S9",43.65971024,-79.3831652
+8,The Alley,Bubble Tea,50%,"5 St Joseph St, Toronto, ON M4Y 0B6",43.66592932,-79.3856026
+9,Chatime,Bubble Tea,10%,"199 College St, Toronto, ON M5T 1P9",43.65884348,-79.3951486
+10,Chatime,Bubble Tea,75%,"132 Dundas St W, Toronto, ON M5G 1C3",43.65581253,-79.38474773
+11,Metro,Grocery ,15%,"425 Bloor St W, Toronto, ON M5S 1X6",43.6663813,-79.40487836
+12,Metro,Grocery ,30%,"444 Yonge St, Toronto, ON M5G 2B3",43.6608282,-79.38303845
+13,Bulk Barn,Grocery ,25%,"2 Carlton St., Toronto, ON M5B 1J3",43.66186446,-79.38290588
+14,Cineplex,Entertainment,80%,"55 Bloor St W, Toronto, ON M4W 1A5",43.66937289,-79.38811957
+15,AGO,Entertainment,60%,"317 Dundas St W, Toronto, ON M5T 1G4",43.65371492,-79.39250616
+16,ROM,Entertainment,10%,"100 Queens Park, Toronto, ON M5S 2C6",43.66788042,-79.3947771
+17,The Dance Cave,Entertainment,10%,"529 Bloor St W, Toronto, ON M5S 1Y5",43.66543271,-79.40939485
+18,Club Monaco ,Entertainment,20%,"403 Queen St W, Toronto, ON M5V 2A5",43.64901394,-79.39459952
+19,Club Monaco ,Entertainment,20%,"220 Yonge St, Toronto, ON M5B 2H1",43.65394479,-79.3801225
+20,TIFF Lightbox,Entertainment,90%,"350 King St W, Toronto, ON M5V 3X5",43.64658712,-79.39034703
+21,Levi's,Fashion,40%,"3401 Dufferin St Unit #91, North York, ON M6A 2T9",43.72538837,-79.45378697
+22,Puma,Fashion,35%,"165 Galaxy Blvd, Toronto, ON M9W",43.67973212,-79.5848379
+23,Indochino,Fashion,30%,"100 City Centre Dr, Mississauga, ON L5B 2C9",43.59354878,-79.63947632
+25,Levi's,Fashion,15%,"220 Yonge St, Toronto, ON M5B 2H1",43.65394479,-79.3801225
+26,Levi's,Fashion,15%,"Sherway Gardens, 25 The West Mall, Etobicoke, ON M9C 1B8",43.61189739,-79.55710541
+27,Puma,Fashion,10%,"1250 S Service Rd Unit 101AA, Mississauga, ON L5E 1V4",43.59320791,-79.56891347
+28,American Eagle Outfitters,Fashion,10%,"218 Yonge St Unit 1 105, Toronto, ON M5B 2H6",43.65322118,-79.38073707
+29,kyoto house japanese restaurant,Food,BOGO,"143 Dundas St W, Toronto, ON M5G 1C5",43.65524014,-79.3853202
+24, FIKA Cafe,Food,15%,"28 Kensington Ave, Toronto, ON M5T 2J9",43.6535713,-79.40043383
+25,Insomnia ,Food,20%,"563 Bloor St W, Toronto, ON M5S 1Y6",43.66504984,-79.4107779
+26,Toby's Pub and Eatery ,Food,15%,"411 College St, Toronto, ON M5T 1T1",43.65655401,-79.40662939
+31,St. Louis Bar and Grill,Food,15%,"595 Bay St. A09, Toronto, ON M5G 2R3",43.65669647,-79.38284849
+32,St. Louis Bar and Grill,Food,20%,"313 Bremner Blvd, Toronto, ON M5V 3V3",43.64057176,-79.39047163
+33,St. Louis Bar and Grill,Food,25%,"92 King St E Unit 114, Toronto, ON M5C 2V8",43.65023834,-79.3749755
+34,St. Louis Bar and Grill,Food,BOGO,"1 Baldwin St, Toronto, ON M5T 1L1",43.6562473,-79.39226886
+35,St. Louis Bar and Grill,Food,45%,"376 Bloor St W, Toronto, ON M5S 1X2",43.66651766,-79.40619462
