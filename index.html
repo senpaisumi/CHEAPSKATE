@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+
+
+</head>
+<body>
+
+
+
+    <form  action="{{ url_for('index') }}" method="post">
+
+            <div>
+                <select class="browser-default custom-select" name= categories method="POST" action="/" >
+                    {% for category in categories %}
+                    <option value= "{{category}}" SELECTED>{{category}}</option>"
+                    {% endfor %}
+                </select>
+            </div>
+
+    <input type="submit">
+    </form>
+
+     <iframe src="my_map.html" width="1000" height="600"/>
+
+</body>
